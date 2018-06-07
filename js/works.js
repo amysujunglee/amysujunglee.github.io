@@ -1,14 +1,18 @@
-$(function() {
-		var selectedClass = "";
-		$(".fil-cat").click(function(){ 
-		selectedClass = $(this).attr("data-rel"); 
-     $("#works").fadeTo(100, 0.1);
-		$("#works div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
-    setTimeout(function() {
-      $("."+selectedClass).fadeIn().addClass('scale-anm');
-      $("#works").fadeTo(300, 1);
-    }, 300); 
-		
+$(document).ready(function(){
+	$(".btn-works").click(function(){
+		var value = $(this).attr("data-filter");
+		if (value == "all")
+		{
+			$(".filter").show("1000");
+		}
+		else
+		{
+			$(".filter").not("."+value).hide("1000");
+			$(".filter").filter("."+value).show("1000");
+		}
 	});
-});
-
+		//Add active class
+		$("ul .btn-works").click(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		})
+	})

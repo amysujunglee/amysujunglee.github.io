@@ -14,7 +14,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,light,thin|Roboto+Slab:regular,light,thin">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:Thin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,thin,bold,black">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -28,91 +30,253 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav" href="works.html">Works</a></li>
+          <li><a class="main-nav active" href="works.html">Works</a></li>
           <li><a class="main-nav" href="about.html">About</a></li>
           <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
         </ul>
-        <a href="index.html" style="text-decoration: none;"><h3 class="muted">AMY LEE</h3></a>
+        <h3 class="logo"><a href="index.html">AMY LEE</a></h3>
       </div>
 
       <hr>
-      <div>
-        <h3>I make things that are fun and easy to use.</h3>
+
+      <div class="works-container">
+        <div class="works-sorting">
+          <ul>
+            <li class="btn-works active" data-filter="all">All (18)</li>
+            <li class="btn-works" data-filter="ux_consulting">UX Consulting (5)</li>
+            <li class="btn-works" data-filter="uxui_design">UX/UI Design (5)</li>
+            <li class="btn-works" data-filter="web_development">Web Development (5)</li>
+            <li class="btn-works" data-filter="graphics">Graphics (4)</li>
+            <li class="btn-works" data-filter="videos">Videos (3)</li>
+            <div style="clear:both"></div>
+          </ul>
+        </div>
+        
+        <div class="box filter ux_consulting">
+          <a href="works/volkswagen.html">
+            <div class="works-thumb-img">
+              <img src="imgs/volkswagen_01.png" style="width: 90%">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Volkswagen Korea eCommerce Implementation Strategy</span><br>
+              UX Consulting<br>
+              <span class="thumb-date">Mar - Jul 2017 (5 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter ux_consulting">
+          <a href="works/amorepacific.html">
+            <div class="works-thumb-img">
+              <img src="imgs/amorepacific_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">AMOREPACIFIC Standardization of eCommerce UX To-Be Process</span><br>
+              UX Consulting<br>
+              <span class="thumb-date">Dec 2016 - Mar 2017 (4 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter ux_consulting">
+          <a href="works/bioinfra.html">
+            <div class="works-thumb-img">
+              <img src="imgs/bioinfra_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">BIOINFRA Service Modeling & Strategy</span><br>
+              UX Consulting<br>
+              <span class="thumb-date">Aug - Dec 2016 (5 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter ux_consulting">
+          <a href="works/hyundai_motor.html">
+            <div class="works-thumb-img">
+              <img src="imgs/hyundai_motor_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Hyundai IONIQ Sales Training Materials</span><br>
+              UX Consulting<br>
+              <span class="thumb-date">Jul 2016 (1 month)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter ux_consulting uxui_design">
+          <a href="works/samsung_securities.html">
+            <div class="works-thumb-img">
+              <img src="imgs/samsung_securities_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Samsung Securities UX consulting & <br>Online Channel Development</span><br>
+              UX Consulting | UX/UI Design<br>
+              <span class="thumb-date">Jul 2015 - Jun 2016 (1 year)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter uxui_design web_development">
+          <a href="works/wowtasty_web.html">
+            <div class="works-thumb-img">
+              <img src="imgs/wowtasty_web_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Wowtasty Website Mainpage & Mypage<br> Redesign</span><br>
+              UX/UI Design<br>
+              <span class="thumb-date">Sep - Oct 2014 (2 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter web_development">
+          <a href="works/minibox.html">
+            <div class="works-thumb-img">
+              <img src="imgs/minibox_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">MiniBox Website Development</span><br>
+              UX/UI Design | Web Development<br>
+              <span class="thumb-date">Aug 2014 (1 month)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter uxui_design web_development">
+          <a href="works/wowtasty_admin.html">
+            <div class="works-thumb-img">
+              <img src="imgs/wowtasty_admin_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Wowtasty Admin System Redesign</span><br>
+              UX/UI Design | Web Development<br>
+              <span class="thumb-date">Aug - Oct 2014 (3 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter Graphics">
+          <a href="works/wowtasty_magazine.html">
+            <div class="works-thumb-img">
+              <img src="imgs/wowtasty_magazine_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Wowtasty Food Magazine</span><br>
+              Graphics<br>
+              <span class="thumb-date">May - Jul 2014 (3 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter uxui_design web_development">
+          <a href="works/vovios.html">
+            <div class="works-thumb-img">
+              <img src="imgs/vovios_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Vovios Networks Corporate<br>Website Development</span><br>
+              UX/UI Design | Web Development<br>
+              <span class="thumb-date">Mar - Apr 2014 (2 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter uxui_design web_development">
+          <a href="works/wowtasty_mobileweb.html">
+            <div class="works-thumb-img">
+              <img src="imgs/wowtasty_mobileweb_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Wowtasty Mobile Web Development</span><br>
+              UX/UI Design | Web Development<br>
+              <span class="thumb-date">Sep 2013 - Feb 2014 (6 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter graphics">
+          <a href="works/ccv.html">
+            <div class="works-thumb-img">
+              <img src="imgs/ccv_01.png">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">2013 CCV Summer Games Event Project</span><br>
+              Graphics<br>
+              <span class="thumb-date">Mar - Jun 2013 (4 months)</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter graphics">
+          <a href="works/ev.html">
+            <div class="works-thumb-img">
+              <img src="imgs/ev_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">EV Brochure Design</span><br>
+              Graphics<br>
+              <span class="thumb-date">Jul 2013</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter videos">
+          <a href="works/southkorea.html">
+            <div class="works-thumb-img">
+              <img src="imgs/southkorea_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">'South Korea' Infographic Project</span><br>
+              Video<br>
+              <span class="thumb-date">Jul 2013</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter graphics">
+          <a href="works/fringe.html">
+            <div class="works-thumb-img">
+              <img src="imgs/fringe_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Vancouver Fringe Festival Poster</span><br>
+              Graphics<br>
+              <span class="thumb-date">Jun 2013</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter videos">
+          <a href="works/sherlock.html">
+            <div class="works-thumb-img">
+              <img src="imgs/sherlock_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">'Sherlock BBC' Kinetic Typography Project</span><br>
+              Video<br>
+              <span class="thumb-date">May 2013</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter graphics">
+          <a href="works/mydad.html">
+            <div class="works-thumb-img">
+              <img src="imgs/mydad_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">My Dad</span><br>
+              Graphics<br>
+              <span class="thumb-date">Mar 2013</span>
+            </p>
+          </a>
+        </div>
+        <div class="box filter videos">
+          <a href="works/converse.html">
+            <div class="works-thumb-img">
+              <img src="imgs/converse_01.jpg">
+            </div>
+            <p class="works-thumb">
+              <span class="thumb-title">Converse Advertising UCC PROJECT</span><br>
+              Video<br>
+              <span class="thumb-date">2008</span>
+            </p>
+          </a>
+        </div>
+        <div style="clear:both"></div>
       </div>
-
-  <div class="toolbar mb2 mt2">
-  <button class="btn-works fil-cat" href="" data-rel="all">All</button>
-  <button class="btn-works fil-cat" data-rel="web">UX</button>
-  <button class="btn-works fil-cat" data-rel="flyers">Web Design</button>
-  <button class="btn-works fil-cat" data-rel="bcards">Web Development</button>
-  <button class="btn-works fil-cat" data-rel="grapic">Graphic Design</button>
-  <button class="btn-works fil-cat" data-rel="video">Video</button>
-</div> 
- 
-<div style="clear:both;"></div>   
-<div id="works">
-
-    <a href="works/minibox.html">
-      <div class="works-box tile scale-anm web all">
-        <img src="img/portfolio-15.jpg" alt="MiniBox" />
-        <p class="works-brief">MiniBox Website Development, 2014</p>
-      </div> 
-    </a>
-
-  <br>
-  <div class="tile scale-anm bcards all">
-    <img src="img/portfolio-14.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-13.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-12.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm flyers all">
-    <img src="img/portfolio-11.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm bcards all">
-    <img src="img/portfolio-10.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm flyers all">
-    <img src="img/portfolio-09.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm flyers all">
-    <img src="img/portfolio-08.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-07.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm flyers all">
-    <img src="img/portfolio-06.jpg" alt="" /> 
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-05.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm bcards all">
-    <img src="img/portfolio-04.jpg" alt="" />
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-03.jpg" alt="" /> 
-  </div>
-  <div class="tile scale-anm bcards all">
-    <img src="img/portfolio-02.jpg" alt="" />  
-  </div>
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-15.jpg" alt="" />
-  </div> 
-  <div class="tile scale-anm web all">
-    <img src="img/portfolio-15.jpg" alt="" />  
-  </div> 
-  <div class="tile scale-anm bcards all">     
-    <img src="img/portfolio-15.jpg" alt="" />
-  </div>
-</div>
-<div style="clear:both;"></div>
+      <a class="back-to-top-fixed" href="#">
+        <i class="icon ion-md-arrow-round-up"></i>
+      </a>
 
       <hr>
+
       <div class="footer">
         <p>&copy; Sujung Lee, 2018</p>
       </div>
@@ -122,7 +286,6 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/works.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

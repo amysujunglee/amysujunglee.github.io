@@ -38,7 +38,7 @@ body {
   margin-bottom: 20px;
   font-size: 13px;
   line-height: 30px;
-  color: #333;
+  color: #999;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
@@ -48,6 +48,7 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   line-height: 40px;
+  color: #ff9900;
 }
 .btn-aboutme{
   font-size: 13px;
@@ -59,24 +60,21 @@ body {
   padding: 10px 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-right: 20px;
   display: inline-block;
-  margin-bottom: 8px;
+  margin: 50px 0px;
 }
 .btn-aboutme:hover,
 .btn-aboutme:focus,
-.btn-aboutme:active,
-.btn-aboutme.active,
-.btn-aboutme.disabled,
-.btn-aboutme[disabled] {
-  color: #333;
-  background-color: #f5f5f5;
+.btn-aboutme:active
+{
+  color: #cd212a;
+  border: 1px solid #cd212a;
   text-decoration: none;
   display: inline-block;
 }
 .ux-designer{
-  letter-spacing: 4px;
-  text-transform: uppercase;
+  color: #cd212a;
+  font-weight: 700;
 }
 .main-font{
   letter-spacing: 1px;
@@ -101,29 +99,6 @@ body {
 .web-developer{
   font-weight: 300;
 }
-.btn-works{
-  font-size: 12px;
-  background-repeat: repeat-x;
-  border: 1px solid #cccccc;
-  line-height: 15px;
-  color: #333333;
-  text-align: center;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-.btn-works:hover,
-.btn-works:focus,
-.btn-works:active,
-.btn-works.active{
-  color: #333;
-  background-color: #e6e6e6;
-  text-decoration: none;
-  display: inline-block;
-}
 .works-box{
   padding: 10px;
   background-color: #e6e6e6;
@@ -136,5 +111,122 @@ body {
   font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 0px;
+}
+h3.logo{
+  color: #999;
+  letter-spacing: 5px;
+  font-weight: 900;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+h3.logo a:hover,
+h3.logo a:focus{
+  color: #cd212a;
+}
+.recent-works{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Lato, Serif;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 40px;
+}
+a.main-nav:hover{
+  color: #cd212a;
+  background-color: #fff !important;
+}
+.social-links{
+  font-size: 30px;
+  color: #999;
+  letter-spacing: 5px;
+}
+.social-links ul{
+  margin: 0px;
+}
+.social-links i{
+  padding-left: 7px;
+}
+.clients-logo img{
+  max-width: 100px;
+  max-height: 50px;
+  margin: 20px; 
+}
+.clients{
+  font-size: 12px;
+  color: #666;
+  margin-top: 50px;
+  font-family: Roboto slab, Serif;
+}
 
+
+/*about.html*/
+
+.about-main{
+  height: auto;
+}
+.about-details{
+  margin: 10px;
+}
+.about-hr{
+  border-top: 1px dashed #e6e6e6;
+  margin-left: -20px;
+}
+.about-right-title{
+  margin-bottom: 3px;
+  color: #cd212a;
+}
+.about-right-title.edu{
+  color: #333;
+}
+.about-right-date{
+  font-size: 13px;
+  color: #999;
+  margin-left: 25px;
+}
+.company-desc{
+  font-size: 10px;
+  font-style: italic;
+  color: #bbb;
+  line-height: 12px;
+}
+.work-place{
+  margin-bottom: 2px;
+  color: #999;
+}
+.btn-download{
+  font-size: 11px;
+  border: 1px solid #cccccc;
+  line-height: 12px;
+  color: #333333;
+  text-align: center;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.btn-download:hover,
+.btn-download:focus,
+.btn-download:active
+{
+  color: #cd212a;
+  border: 1px solid #cd212a;
+
+}
+.about-download{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-summary{
+  max-width: 900px;
+  font-family: Roboto slab, Serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.about-highlight{
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #cd212a75;
 }
