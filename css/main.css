@@ -191,6 +191,8 @@ a.main-nav:hover{
   font-style: italic;
   color: #bbb;
   line-height: 12px;
+  font-weight: 100;
+  letter-spacing: 0.03em;
 }
 .work-place{
   margin-bottom: 2px;
