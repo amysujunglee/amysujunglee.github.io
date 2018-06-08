@@ -14,6 +14,7 @@
     <link href="../css/works.css" rel="stylesheet">
     <link href="../css/works_detailpage.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,regular+italic,light,thin,bold,black|Roboto+Slab:regular,light,thin">
     <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
@@ -28,91 +29,83 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="../works.html">Works</a></li>
-          <li><a class="main-nav" href="../about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        
-        <h3 class="logo"><a href="../index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="../index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu"><i class="icon ion-md-menu"></i></label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav active" href="../works.html">Works</a></li>
+            <li><a class="main-nav" href="../about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
+      </div>
        
-      </div> 
+      <div style="clear:both"></div>
 
       <hr>
 
-      <div class="container">
+      <div>
         <div class="works-main-banner">
           <img src="../imgs/wowtasty_admin_banner.png" alt="Wowtasty Admin System Banner">
         </div>
         
         <div class="desc-container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <br>
               <p class="desc-left-title">Date</p>
               <p class="desc-left">Aug - Oct 2014<br> (3 months) </p>
               <p class="desc-left-title">Client</p>
               <p class="desc-left">Wowtasty</p>
-              <p class="desc-left-title">My Role</p>
+              <!-- <p class="desc-left-title">Problem</p>
                 <ul class="my-role">
-                  <li>Re-designing the website by following the latest trend design</li>
-                  <li>-</li>
-                  <li>Benchmarked -</li>
-                  <li>-</li>
-                  <li>-</li>
-                </ul>
-              <p class="desc-left-title">Problem</p>
-                <ul class="my-role">
-                  <li>Limited for applying the latest Fintech technologies and UX/UI design trends due to the web security issues</li>
-                  <li>Hard to arrange meetings and make a decision with the client and the 3 differnet partners(Over 50 people involved in this project)</li>
-                </ul>
+                  <li></li>
+                </ul> -->
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-8">
               <h2 class="desc-work-title">Wowtasty Admin System Renewal</h2>
               <h4 class="desc-right-title">Overview</h4>
               <p>Wow Tasty is about food delivery & take-out online ordering system in Vancouver. The website should follow the design trend to capture many users, so we decided to change the original theme to flat design theme. Sticking to the original logo and header, other graphic elements were redesigned.</p>
 
-              <hr>
+              <hr class="works-hr">
+
+              <h4 class="desc-right-title">My Roles</h4>
+              <!-- <p>
+                <ul>
+                  <li></li>
+                </ul>
+              </p> -->
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Work Process</h4>
-              <p>
-                (1) UX Consulting: 
+              <!-- <p>
+                (1)
                 <ul>
-                  <li>Analyzing the internal documents; Business strategy, goals, target segmentations, etc</li>
-                  <li>Researched on the latest Fintech technologies and benchmarked currently big global companies(Merrill EDGE, Charles Schwab, Fidelity, Betterment, etc) and startups</li>
-                  <li>Interviewed the stakeholders and conducted a FGD(Focus Group Discussion)</li>
-                  <li>Confirmed the major steps of Customer journey, analyzed MOT(Moment Of Truth), and discovered how to improve the weakpoints</li>
-                  <li>Throughout all the analysis results above, created Samsung Securities' UX principle and guidelines</li>
-                  <li>Created UX/UI prototypes of online channels</li>
+                  <li></li>
                 </ul>
               </p>
               <p>
-                (2) WEB Channel Development:
+                (2)
                 <ul>
-                  <li>Created WBS(Work Breakdown Structure) and communicate/share with the client(Samsung Securities), the partner(PwC) and the team members based on it</li>
-                  <li>Re-created IA of Samsung Securities web channel</li>
-                  <li>Created UI guidelines and constructed each page</li>
-                  <li>Did user testing</li>
+                  <li></li>
                 </ul>
-              </p>
-               <hr>
+              </p> -->
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Result</h4>
-              <video class="col-sm-5" controls>
-                <source src="../imgs/samsung_securities_01.m4v">
+              <!-- <div class="col-md-12">
+                <img src="../imgs/bioinfra_03.png" alt="Analysis of BIOINFRA Service AS-IS">
+              </div>
+              <div class="col-sm-12 result-desc">[Analysis of BIOINFRA Service AS-IS]</div>
 
-              </video>
+              <div class="col-md-12">
+                <img src="../imgs/bioinfra_04.png" alt="Analysis of BIOINFRA Service AS-IS">
+              </div>
+              <div class="col-sm-12 result-desc">[Desk Research]</div> -->
 
-              <video class="col-sm-5" controls>
-                <source src="../imgs/samsung_securities_02.m4v">
-              </video>
-
-              <span class="col-sm-5 video-cap">[Before Login]</span>
-              <span class="col-sm-5 video-cap">[After Login]</span>
-            
-            </div>
           </div>
         </div>
       </div>

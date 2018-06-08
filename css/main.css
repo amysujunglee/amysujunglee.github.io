@@ -59,7 +59,9 @@ body {
     border-radius: 3px;
     margin: 0 auto;
 }
-
+.show-menu i{
+  margin-right: 0px;
+}
 
 .main-skills {
   margin-bottom: 20px;
@@ -202,13 +204,14 @@ a.main-nav:hover{
 
 .about-main{
   height: auto;
+  padding: 20px;
 }
 .about-details{
   margin: 10px;
 }
 .about-hr{
   border-top: 1px dashed #e6e6e6;
-  margin-left: -20px;
+  /*margin-left: -20px;*/
 }
 .about-right-title{
   margin-bottom: 3px;
@@ -267,4 +270,6 @@ a.main-nav:hover{
   text-decoration: underline;
   text-decoration-color: #ef9499;
 }
-
+.icon{
+  margin-right: 5px;
+}

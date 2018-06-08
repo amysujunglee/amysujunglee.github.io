@@ -14,6 +14,7 @@
     <link href="../css/works.css" rel="stylesheet">
     <link href="../css/works_detailpage.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,regular+italic,light,thin,bold,black|Roboto+Slab:regular,light,thin">
     <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
@@ -28,88 +29,83 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="../works.html">Works</a></li>
-          <li><a class="main-nav" href="../about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        
-        <h3 class="logo"><a href="../index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="../index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu"><i class="icon ion-md-menu"></i></label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav active" href="../works.html">Works</a></li>
+            <li><a class="main-nav" href="../about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
+      </div>
        
-      </div> 
+      <div style="clear:both"></div>
 
       <hr>
 
-      <div class="container">
+      <div>
         <div class="works-main-banner">
           <img src="../imgs/minibox_banner.png" alt="MiniBox Banner">
         </div>
         
         <div class="desc-container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <br>
               <p class="desc-left-title">Date</p>
               <p class="desc-left">Aug 2014<br> (1 month) </p>
               <p class="desc-left-title">Client</p>
               <p class="desc-left">MiniBin</p>
-              <p class="desc-left-title">My Role</p>
+              <!-- <p class="desc-left-title">Problem</p>
                 <ul class="my-role">
                   <li>-</li>
                   <li>-</li>
-                  <li>-</li>
-                  <li>Benchmarking</li>
-                </ul>
-              <p class="desc-left-title">Problem</p>
-                <ul class="my-role">
-                  <li>-</li>
-                  <li>-</li>
-                </ul>
+                </ul> -->
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-8">
               <h2 class="desc-work-title">MiniBox Website Development</h2>
               <h4 class="desc-right-title">Overview</h4>
               <p>The site is about renting mobile storages in Canada. The header is fixed so that users can see the menus while scrolling the website. There is a request form to get a free quote on the main slide. In sub pages, users are able to compare the size and sepcifications of the mobile storages, then they order what they need to rent through the website.</p>
 
-              <hr>
+              <hr class="works-hr">
+              <h4 class="desc-right-title">My Roles</h4>
+              <!-- <p>
+                <ul>
+                  <li></li>
+                </ul>
+              </p> -->
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Work Process</h4>
-              <p>
-                <div class="work-process-title">1. Process improvement</div>
+              <!-- <p>
+                (1)
                 <ul>
-                  <li>Reduce visit&transaction processes by up to 25% compared to traditional</li>
+                  <li></li>
                 </ul>
               </p>
               <p>
-                <div class="work-process-title">2. Presenting a standard feature</div>
+                (2)
                 <ul>
-                  <li>Present standardized functions to 12 processes centered on functions reflecting the latest trends</li>
+                  <li></li>
                 </ul>
-              </p>
-              <p>
-                <div class="work-process-title">3. Building UX guidelines</div>
-                <ul>
-                  <li>Enhance customers' conversion rates by defining messaging guides to motivate customers to buy</li>
-                </ul>
-              </p>
-               <hr>
+              </p> -->
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Result</h4>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/volkswagen_02.png" alt="Volkswagen Painpoints">
-                </div>
-                <div class="result-cap">[Customer Journey painpoints]</div>
+              <!-- <div class="col-md-12">
+                <img src="../imgs/bioinfra_03.png" alt="Analysis of BIOINFRA Service AS-IS">
               </div>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/volkswagen_03.png" alt="Volkswagen Milestone">
-                </div>
-                <div class="result-cap">[Project Roadmap]</div>
+              <div class="col-sm-12 result-desc">[Analysis of BIOINFRA Service AS-IS]</div>
+
+              <div class="col-md-12">
+                <img src="../imgs/bioinfra_04.png" alt="Analysis of BIOINFRA Service AS-IS">
               </div>
-            </div>
+              <div class="col-sm-12 result-desc">[Desk Research]</div> -->
+
           </div>
         </div>
       </div>

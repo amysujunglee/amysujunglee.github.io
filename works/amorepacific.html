@@ -14,6 +14,7 @@
     <link href="../css/works.css" rel="stylesheet">
     <link href="../css/works_detailpage.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,regular+italic,light,thin,bold,black|Roboto+Slab:regular,light,thin">
     <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
@@ -28,28 +29,31 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="../works.html">Works</a></li>
-          <li><a class="main-nav" href="../about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        
-        <h3 class="logo"><a href="../index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="../index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu"><i class="icon ion-md-menu"></i></label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav active" href="../works.html">Works</a></li>
+            <li><a class="main-nav" href="../about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
+      </div>
        
-      </div> 
+      <div style="clear:both"></div>
 
       <hr>
 
-      <div class="container">
+      <div>
         <div class="works-main-banner">
           <img src="../imgs/amorepacific_banner.png" alt="AMOREPACIFIC Banner">
         </div>
         
         <div class="desc-container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <br>
               <p class="desc-left-title">Date</p>
               <p class="desc-left">Dec 2016 - Mar 2017<br> (4 months) </p>
@@ -57,23 +61,27 @@
               <p class="desc-left">Cosmetics Industry</p>
               <p class="desc-left-title">Client</p>
               <p class="desc-left">Amorepacific Corporation<br>(PMO: IBM)</p>
-              <p class="desc-left-title">My Role</p>
-                <ul class="my-role">
-                  <li>Divided the five stages of customer journeys into major stages and derives the detailed main stages of the process</li>
-                  <li>Analyzed and integrated of 12 steps in AMOREPACIFIC's five representative shopping malls (AP Mall, Aritaum, Innisfree, Etude House)</li>
-                  <li>Benchmarked the competitors; amazon.com, walmart.com, sephora.com, etc</li>
-                </ul>
               <p class="desc-left-title">Problem</p>
                 <ul class="my-role">
                   <li>It is difficult to standardize the process of the site by country because the standardization of the authentication and settlement method is different by country</li>
                 </ul>
             </div>
-            <div class="col-sm-7">
-              <h2 class="desc-work-title">Standardization of eCommerce <br> UX To-Be Process</h2>
+            <div class="col-md-8">
+              <h2 class="desc-work-title">Standardization of eCommerce UX To-Be Process</h2>
               <h4 class="desc-right-title">Overview</h4>
               <p>By deriving the AS-IS Pain-Point through analysis of 12 processes, functions, and guides, and establishing the UX TO-BE standard model based on this, we have reduced the drop-off rate and the conversion rate.</p>
 
-              <hr>
+              <hr class="works-hr">
+              <h4 class="desc-right-title">My Roles</h4>
+              <p>
+                <ul>
+                  <li>Divided the five stages of customer journeys into major stages and derives the detailed main stages of the process</li>
+                  <li>Analyzed and integrated of 12 steps in AMOREPACIFIC's five representative shopping malls (AP Mall, Aritaum, Innisfree, Etude House)</li>
+                  <li>Benchmarked the competitors; amazon.com, walmart.com, sephora.com, etc</li>
+                </ul>
+              </p>
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Work Process</h4>
               <p>
@@ -94,21 +102,19 @@
                   <li>Enhance customers' conversion rates by defining messaging guides to motivate customers to buy</li>
                 </ul>
               </p>
-               <hr>
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Result</h4>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/amorepacific_02.png" alt="Amorepacific 12 steps Analysis">
-                </div>
-                <div class="result-cap">[Analysis of 12 steps]</div>
+              <!-- <div class="col-md-12">
+                <img src="../imgs/amorepacific_02.png" alt="Amorepacific 12 steps Analysis">
               </div>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/amorepacific_03.png" alt="Volkswagen Milestone">
-                </div>
-                <div class="result-cap">[Benchmarking]</div>
+              <div class="col-md-12 result-desc">[Analysis of 12 steps]</div>
+
+              <div class="col-md-12">
+                <img src="../imgs/amorepacific_03.png" alt="Benchmarking">
               </div>
+              <div class="col-md-12 result-cap">[Benchmarking]</div> -->
             </div>
           </div>
         </div>

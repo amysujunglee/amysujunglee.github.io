@@ -14,6 +14,7 @@
     <link href="../css/works.css" rel="stylesheet">
     <link href="../css/works_detailpage.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,regular+italic,light,thin,bold,black|Roboto+Slab:regular,light,thin">
     <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
@@ -28,28 +29,31 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="../works.html">Works</a></li>
-          <li><a class="main-nav" href="../about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        
-        <h3 class="logo"><a href="../index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="../index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu"><i class="icon ion-md-menu"></i></label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav active" href="../works.html">Works</a></li>
+            <li><a class="main-nav" href="../about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
+      </div>
        
-      </div> 
+      <div style="clear:both"></div>
 
       <hr>
 
-      <div class="container">
+      <div>
         <div class="works-main-banner">
-          <img src="../imgs/hyundai_motor_banner.jpg" alt="Hyundai Motor Banner">
+          <img src="../imgs/hyundai_motor_banner.png" alt="Hyundai Motor Banner">
         </div>
         
         <div class="desc-container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <br>
               <p class="desc-left-title">Date</p>
               <p class="desc-left">Jul 2016<br> (1 month) </p>
@@ -57,59 +61,59 @@
               <p class="desc-left">Automotive Industry</p>
               <p class="desc-left-title">Client</p>
               <p class="desc-left">Hyundai Motor Company</p>
-              <p class="desc-left-title">My Role</p>
+              <!-- <p class="desc-left-title">Problem</p>
                 <ul class="my-role">
                   <li>-</li>
-                  <li>-</li>
-                  <li>-</li>
-                </ul>
-              <p class="desc-left-title">Problem</p>
-                <ul class="my-role">
-                  <li>-</li>
-                </ul>
+                </ul> -->
             </div>
-            <div class="col-sm-7">
-              <h2 class="desc-work-title">Hyundai IONIQ Sales Training Materials</h2>
+            <div class="col-md-8">
+              <h2 class="desc-work-title">Hyundai IONIQ Sales E-Learning Materials</h2>
               <h4 class="desc-right-title">Overview</h4>
-              <p>New car sales process of Hyundai automobile We develop effective dealer education and brand experience by developing online education program.</p>
+              <p>New car sales process of Hyundai automobile We developed effective dealer education and brand experience by developing online education program.</p>
 
-              <hr>
+              <hr class="works-hr">
+              <h4 class="desc-right-title">My Roles</h4>
+              <p>
+                <ul>
+                  <li>Benchmarked the competitor's online and offlen sales training matetials</li>
+                  <li>Brainstormed ideas and found a way for salespeople to have FUN and learn about IONIQ</li>
+                  <li>Translated Korean sale e-learning materials into English</li>
+                </ul>
+              </p>
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Work Process</h4>
               <p>
-                (1) UX Consulting: 
+                (1) As-Is Analysis 
                 <ul>
-                  <li>Analyzing the internal documents; Business strategy, goals, target segmentations, etc</li>
-                  <li>Researched on the latest Fintech technologies and benchmarked currently big global companies(Merrill EDGE, Charles Schwab, Fidelity, Betterment, etc) and startups</li>
-                  <li>Interviewed the stakeholders and conducted a FGD(Focus Group Discussion)</li>
-                  <li>Confirmed the major steps of Customer journey, analyzed MOT(Moment Of Truth), and discovered how to improve the weakpoints</li>
-                  <li>Throughout all the analysis results above, created Samsung Securities' UX principle and guidelines</li>
-                  <li>Created UX/UI prototypes of online channels</li>
+                  <li>Insignt from the dealer perspective</li>
+                  <li>Insight from the e-learning perspective</li>
+                  <li>Insight from the gamification trend perspective</li>
                 </ul>
               </p>
               <p>
-                (2) WEB Channel Development:
+                (2) E-Learning production plan
                 <ul>
-                  <li>Created WBS(Work Breakdown Structure) and communicate/share with the client(Samsung Securities), the partner(PwC) and the team members based on it</li>
-                  <li>Re-created IA of Samsung Securities web channel</li>
-                  <li>Created UI guidelines and constructed each page</li>
-                  <li>Did user testing</li>
+                  <li>Production concept</li>
+                  <li>Detailed orientation</li>
+                  <li>Production Direction</li>
                 </ul>
               </p>
-               <hr>
+              <p>
+                (3) Content Scenario
+                <ul>
+                  <li>Content Overview</li>
+                  <li>Detailed scenarios</li>
+                </ul>
+              </p>
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Result</h4>
-              <video class="col-sm-5" controls>
-                <source src="../imgs/samsung_securities_01.m4v">
-
-              </video>
-
-              <video class="col-sm-5" controls>
-                <source src="../imgs/samsung_securities_02.m4v">
-              </video>
-
-              <span class="col-sm-5 video-cap">[Before Login]</span>
-              <span class="col-sm-5 video-cap">[After Login]</span>
+              <div class="col-md-12">
+                <img src="../imgs/hyundai_motor_01.png"/>
+              </div>
+              <div class="col-sm-12 result-desc">[IONIQ Sales E-Learning mainpage]</div>
             
             </div>
           </div>

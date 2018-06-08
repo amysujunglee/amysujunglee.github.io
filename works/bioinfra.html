@@ -14,6 +14,7 @@
     <link href="../css/works.css" rel="stylesheet">
     <link href="../css/works_detailpage.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,regular+italic,light,thin,bold,black|Roboto+Slab:regular,light,thin">
     <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css"rel="stylesheet"/>
@@ -28,28 +29,31 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="../works.html">Works</a></li>
-          <li><a class="main-nav" href="../about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        
-        <h3 class="logo"><a href="../index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="../index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu"><i class="icon ion-md-menu"></i></label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav active" href="../works.html">Works</a></li>
+            <li><a class="main-nav" href="../about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
+      </div>
        
-      </div> 
+      <div style="clear:both"></div>
 
       <hr>
 
-      <div class="container">
+      <div>
         <div class="works-main-banner">
-          <img src="../imgs/bioinfra_banner.jpg" alt="Bioinfra Banner">
+          <img src="../imgs/bioinfra_banner.png" alt="Bioinfra Banner">
         </div>
         
         <div class="desc-container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <br>
               <p class="desc-left-title">Date</p>
               <p class="desc-left">Aug - Dec 2016<br> (5 months) </p>
@@ -57,47 +61,49 @@
               <p class="desc-left">Healthcare Industry</p>
               <p class="desc-left-title">Client</p>
               <p class="desc-left">BIOINFRA<BR>(Affiliated with Seoul National University Hospital)</p>
-              <p class="desc-left-title">My Role</p>
-                <ul class="my-role">
-                  <li>-</li>
-                  <li>-</li>
-                  <li>Benchmarked the other healthcare companies, from big global companies and stratups</li>
-                  <li>-</li>
-                  <li>Created the UX principles</li>
-                </ul>
               <p class="desc-left-title">Problem</p>
                 <ul class="my-role">
-                  <li>Limited for applying </li>
-                  <li>-</li>
+                  <li>As healthcare industry, it took time and money to experience and analyze the services of competitors of the same industry.</li>
+                  <li>Especially, the services of competitors in the US have not been experienced directly, and we have had to analyze the result reports provided by the company.</li>
                 </ul>
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-8">
               <h2 class="desc-work-title">BIOINFRA Service Modeling & Strategy</h2>
               <h4 class="desc-right-title">Overview</h4>
               <p>We aimed to build a global-level service that combines 'easy, fast and accurate' functional aspects through service design, brand identity and channel building, and emotional aspects of 'customer care with expertise'.</p>
 
-              <hr>
+              <p class="works-quote">"Successful business has service that customers experience<br> the whole service process as a product."</p>
+
+              <hr class="works-hr">
+              <h4 class="desc-right-title">My Roles</h4>
+              <p>
+                <ul>
+                  <li>Conducted the analysis of Consumer trend and Healthcare industry trend</li>
+                  <li>Benchmarked the other healthcare companies, from big global companies and stratups; 23andme, theranos, Zocdoc, Consyl, PillPack, etc </li>
+                  <li>Created 7 steps of customer experience journey; Aware <i class="icon ion-md-arrow-round-forward"></i>Learn <i class="icon ion-md-arrow-round-forward"></i>Researve <i class="icon ion-md-arrow-round-forward"></i>Test <i class="icon ion-md-arrow-round-forward"></i>Wait <i class="icon ion-md-arrow-round-forward"></i>Result <i class="icon ion-md-arrow-round-forward"></i>Monitor </li>
+                  <li>Wrote scenarios based on personas, and conducted 4 different groups of FGD</li>
+                  <li>Analyzed the pain points, drew To-Be service modeling and strategies, and created the detailed plan for each strategy</li>
+                </ul>
+              </p>
+
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Work Process</h4>
-              <p>
+              <!-- <p>
                 <img src="../imgs/bioinfra_02.png">
-              </p>
-               <hr>
+              </p> -->
+              <hr class="works-hr">
 
               <h4 class="desc-right-title">Result</h4>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/bioinfra_03.png" alt="Analysis of BIOINFRA Service AS-IS">
-                </div>
-                <div class="result-cap">[Analysis of BIOINFRA Service AS-IS]</div>
+              <!-- <div class="col-md-12">
+                <img src="../imgs/bioinfra_03.png" alt="Analysis of BIOINFRA Service AS-IS">
               </div>
-              <div class="col-sm-5">
-                <div class="work-img">
-                  <img src="../imgs/bioinfra_04.png" alt="Desk Research">
-                </div>
-                <div class="result-cap">[Desk Research]</div>
+              <div class="col-sm-12 result-desc">[Analysis of BIOINFRA Service AS-IS]</div>
+
+              <div class="col-md-12">
+                <img src="../imgs/bioinfra_04.png" alt="Analysis of BIOINFRA Service AS-IS">
               </div>
-            
+              <div class="col-sm-12 result-desc">[Desk Research]</div> -->
             </div>
           </div>
         </div>
