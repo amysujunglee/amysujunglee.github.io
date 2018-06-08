@@ -78,6 +78,15 @@
   .hidden-tablet {
     display: none !important;
   }
+  .works-thumb{
+    font-size: 11px;
+  }
+  .thumb-title{
+
+  }
+  .works-thumb-img{
+    max-height: 130px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -92,6 +101,9 @@
   }
   .hidden-phone {
     display: none !important;
+  }
+  .works-thumb{
+  font-size: 10px;
   }
 }
 
