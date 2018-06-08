@@ -891,7 +891,7 @@ dd {
 hr {
   /*width: inherit;*/
   width: auto;
-  margin: 15px 0;
+  /*margin: 15px 0;*/
   border: 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #ffffff;
@@ -3944,7 +3944,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav {
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   margin-left: 0;
   list-style: none;
 }

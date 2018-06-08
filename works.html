@@ -13,6 +13,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/works.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,light,thin|Roboto+Slab:regular,light,thin">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:regular,thin,bold,black">
@@ -29,15 +30,20 @@
 
     <div class="container">
 
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a class="main-nav active" href="works.html">Works</a></li>
-          <li><a class="main-nav" href="about.html">About</a></li>
-          <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-        </ul>
-        <h3 class="logo"><a href="index.html">AMY LEE</a></h3>
+      <h3 class="logo">
+        <a href="index.html">AMY LEE</a>
+      </h3>
+      <div class="nav-box">
+        <label for="show-menu" class="show-menu">+</label>
+        <input type="checkbox" id="show-menu" role="button">
+          <ul class="nav nav-pills pull-right" id="menu">
+            <li><a class="main-nav" href="works.html">Works</a></li>
+            <li><a class="main-nav" href="about.html">About</a></li>
+            <li><a class="main-nav" href="mailto:amy.sujunglee@gmail.com" target="_top">Contact</a></li>
+          </ul>
       </div>
+       
+      <div style="clear:both"></div>
 
       <hr>
 
@@ -59,7 +65,7 @@
         <div class="col-md-4 box filter ux_consulting">
           <a href="works/volkswagen.html">
             <div class="works-thumb-img">
-              <img src="imgs/volkswagen_01.png" style="width: 90%">
+              <img src="imgs/volkswagen_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Volkswagen Korea eCommerce Implementation Strategy</span><br>
@@ -71,7 +77,7 @@
         <div class="col-md-4 box filter ux_consulting">
           <a href="works/amorepacific.html">
             <div class="works-thumb-img">
-              <img src="imgs/amorepacific_01.png">
+              <img src="imgs/amorepacific_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">AMOREPACIFIC Standardization of eCommerce UX To-Be Process</span><br>
@@ -83,7 +89,7 @@
         <div class="col-md-4 box filter ux_consulting">
           <a href="works/bioinfra.html">
             <div class="works-thumb-img">
-              <img src="imgs/bioinfra_01.png">
+              <img src="imgs/bioinfra_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">BIOINFRA Service Modeling & Strategy</span><br>
@@ -95,7 +101,7 @@
         <div class="col-md-4 box filter ux_consulting">
           <a href="works/hyundai_motor.html">
             <div class="works-thumb-img">
-              <img src="imgs/hyundai_motor_01.jpg">
+              <img src="imgs/hyundai_motor_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Hyundai IONIQ Sales Training Materials</span><br>
@@ -107,7 +113,7 @@
         <div class="col-md-4 box filter ux_consulting uxui_design">
           <a href="works/samsung_securities.html">
             <div class="works-thumb-img">
-              <img src="imgs/samsung_securities_01.jpg">
+              <img src="imgs/samsung_securities_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Samsung Securities UX consulting & <br>Online Channel Development</span><br>
@@ -119,7 +125,7 @@
         <div class="col-md-4 box filter uxui_design web_development">
           <a href="works/wowtasty_web.html">
             <div class="works-thumb-img">
-              <img src="imgs/wowtasty_web_01.png">
+              <img src="imgs/wowtasty_web_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Wowtasty Website Mainpage & Mypage<br> Redesign</span><br>
@@ -131,7 +137,7 @@
         <div class="col-md-4 box filter web_development">
           <a href="works/minibox.html">
             <div class="works-thumb-img">
-              <img src="imgs/minibox_01.jpg">
+              <img src="imgs/minibox_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">MiniBox Website Development</span><br>
@@ -143,7 +149,7 @@
         <div class="col-md-4 box filter uxui_design web_development">
           <a href="works/wowtasty_admin.html">
             <div class="works-thumb-img">
-              <img src="imgs/wowtasty_admin_01.png">
+              <img src="imgs/wowtasty_admin_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Wowtasty Admin System Redesign</span><br>
@@ -155,7 +161,7 @@
         <div class="col-md-4 box filter Graphics">
           <a href="works/wowtasty_magazine.html">
             <div class="works-thumb-img">
-              <img src="imgs/wowtasty_magazine_01.jpg">
+              <img src="imgs/wowtasty_magazine_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Wowtasty Food Magazine</span><br>
@@ -167,7 +173,7 @@
         <div class="col-md-4 box filter uxui_design web_development">
           <a href="works/vovios.html">
             <div class="works-thumb-img">
-              <img src="imgs/vovios_01.jpg">
+              <img src="imgs/vovios_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Vovios Networks Corporate<br>Website Development</span><br>
@@ -179,7 +185,7 @@
         <div class="col-md-4 box filter uxui_design web_development">
           <a href="works/wowtasty_mobileweb.html">
             <div class="works-thumb-img">
-              <img src="imgs/wowtasty_mobileweb_01.png">
+              <img src="imgs/wowtasty_mobileweb_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Wowtasty Mobile Web Development</span><br>
@@ -191,7 +197,7 @@
         <div class="col-md-4 box filter graphics">
           <a href="works/ccv.html">
             <div class="works-thumb-img">
-              <img src="imgs/ccv_01.png">
+              <img src="imgs/ccv_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">2013 CCV Summer Games Event Project</span><br>
@@ -203,7 +209,7 @@
         <div class="col-md-4 box filter graphics">
           <a href="works/ev.html">
             <div class="works-thumb-img">
-              <img src="imgs/ev_01.jpg">
+              <img src="imgs/ev_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">EV Brochure Design</span><br>
@@ -215,7 +221,7 @@
         <div class="col-md-4 box filter videos">
           <a href="works/southkorea.html">
             <div class="works-thumb-img">
-              <img src="imgs/southkorea_01.jpg">
+              <img src="imgs/southkorea_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">'South Korea' Infographic Project</span><br>
@@ -227,7 +233,7 @@
         <div class="col-md-4 box filter graphics">
           <a href="works/fringe.html">
             <div class="works-thumb-img">
-              <img src="imgs/fringe_01.jpg">
+              <img src="imgs/fringe_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Vancouver Fringe Festival Poster</span><br>
@@ -239,7 +245,7 @@
         <div class="col-md-4 box filter videos">
           <a href="works/sherlock.html">
             <div class="works-thumb-img">
-              <img src="imgs/sherlock_01.jpg">
+              <img src="imgs/sherlock_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">'Sherlock BBC' Kinetic Typography Project</span><br>
@@ -251,7 +257,7 @@
         <div class="col-md-4 box filter graphics">
           <a href="works/mydad.html">
             <div class="works-thumb-img">
-              <img src="imgs/mydad_01.jpg">
+              <img src="imgs/mydad_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">My Dad</span><br>
@@ -263,7 +269,7 @@
         <div class="col-md-4 box filter videos">
           <a href="works/converse.html">
             <div class="works-thumb-img">
-              <img src="imgs/converse_01.jpg">
+              <img src="imgs/converse_thumb.png">
             </div>
             <p class="works-thumb">
               <span class="thumb-title">Converse Advertising UCC PROJECT</span><br>

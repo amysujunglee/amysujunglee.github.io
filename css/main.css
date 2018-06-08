@@ -1,3 +1,11 @@
+@media screen and (max-width : 760px){
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+}
+
 body {
         padding-top: 10px;
         padding-bottom: 40px;
@@ -33,6 +41,25 @@ body {
       .marketing p + h4 {
         margin-top: 28px;
       }
+
+/*Create a horizontal list with spacing*/
+.nav-bar li {
+    /*display:inline-block;*/
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    text-decoration: none;
+    color: #fff;
+    background: #bbb;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    max-width: 50px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
 
 .main-skills {
   margin-bottom: 20px;
@@ -79,6 +106,13 @@ body {
 .main-font{
   letter-spacing: 1px;
 }
+.nav-box{
+  float: right;
+  margin-top: 10px;
+}
+.nav-box ul{
+  text-align: center;
+}
 .main-nav{
   color: #999;
   text-transform: uppercase;
@@ -113,6 +147,8 @@ body {
   margin-bottom: 0px;
 }
 h3.logo{
+  float:left;
+  display: inline-block;
   color: #999;
   letter-spacing: 5px;
   font-weight: 900;
@@ -189,9 +225,8 @@ a.main-nav:hover{
 .company-desc{
   font-size: 10px;
   font-style: italic;
-  color: #bbb;
+  color: #aaa;
   line-height: 12px;
-  font-weight: 100;
   letter-spacing: 0.03em;
 }
 .work-place{
@@ -232,3 +267,4 @@ a.main-nav:hover{
   text-decoration: underline;
   text-decoration-color: #ef9499;
 }
+

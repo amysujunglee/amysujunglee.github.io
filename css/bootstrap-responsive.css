@@ -78,15 +78,7 @@
   .hidden-tablet {
     display: none !important;
   }
-  .works-thumb{
-    font-size: 11px;
-  }
-  .thumb-title{
-
-  }
-  .works-thumb-img{
-    max-height: 130px;
-  }
+  
 }
 
 @media (max-width: 767px) {
@@ -102,9 +94,7 @@
   .hidden-phone {
     display: none !important;
   }
-  .works-thumb{
-  font-size: 10px;
-  }
+
 }
 
 .visible-print {
@@ -1118,4 +1108,37 @@
     height: auto !important;
     overflow: visible !important;
   }
+}
+
+
+/* Navigation responsive */
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    .nav-box ul {
+        position: static;
+        display: none;
+        width: 100px;
+    }
+    /*Create vertical spacing*/
+    .nav-box li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    .nav-box ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        width: 100px;
+        display:block;
+    }
 }
