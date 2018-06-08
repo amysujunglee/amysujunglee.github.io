@@ -1,6 +1,7 @@
 .works-main-banner{
   margin-bottom: 20px;
-  height: 400px;
+  height: auto;
+  max-height: 400px;
   overflow: hidden;
 }
 .desc-container{

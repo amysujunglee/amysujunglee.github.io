@@ -1144,4 +1144,10 @@ input[type=checkbox]:checked ~ #menu{
         width: 95px;
         display:block;
     }
+    .desc-container{
+      padding-left: 10px; 
+    }
+    .my-role{
+      margin-bottom: 20px;
+    }
 }
