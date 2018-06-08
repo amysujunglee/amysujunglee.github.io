@@ -1123,10 +1123,13 @@ input[type=checkbox]:checked ~ #menu{
 /*Responsive Styles*/
 @media screen and (max-width : 760px){
     /*Make dropdown links appear inline*/
+    .nav-box {
+      width: 95px;
+    }
     .nav-box ul {
         position: static;
         display: none;
-        width: 100px;
+        width: 95px;
     }
     /*Create vertical spacing*/
     .nav-box li {
@@ -1138,7 +1141,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     /*Display 'show menu' link*/
     .show-menu {
-        width: 100px;
+        width: 95px;
         display:block;
     }
 }
