@@ -11,7 +11,7 @@
   float: left;
   padding: 5px 15px;
   color: #999;
-  margin-right: 15px;
+  /*margin-right: 15px;*/
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -23,6 +23,10 @@
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+li.hover-none:hover{
+  background: none !important;
+  color: #999 !important;
 }
 .works-container{
   position: relative;
@@ -58,24 +62,30 @@
 .thumb-date{
   text-transform: none;
 }
-.back-to-top-fixed{
-  background: rgba(136, 143, 154, 0.2);
-  border-radius: 60px;
-  display: block;
-  bottom: 40px;
-  height: 60px;
-  width: 60px;
-  right: 40px;
-  position: fixed;
-  z-index: 3;
-  text-align: center;
-  font-size: 22px;
-  line-height: 3;
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(136, 143, 154, 0.3); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 60px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
-a.back-to-top-fixed{
-  color: #fff;
-}
-a.back-to-top-fixed:hover{
-  color: #555;
+
+#myBtn:hover {
+    color: #333; /* Add a dark-grey background on hover */
 }
 
