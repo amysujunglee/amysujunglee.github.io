@@ -88,4 +88,8 @@ li.hover-none:hover{
 #myBtn:hover {
     color: #333; /* Add a dark-grey background on hover */
 }
+.works-video{
+  width: 560px;
+  height: 315px;
+}
 

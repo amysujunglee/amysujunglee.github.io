@@ -474,6 +474,10 @@
   .row:after {
     clear: both;
   }
+  .works-video{
+      width: 440px;
+      height: 280px;
+    }
   [class*="span"] {
     float: left;
     min-height: 1px;
@@ -907,6 +911,10 @@
     display: block;
     line-height: 20px;
   }
+  .works-video{
+      width: 295px !important;
+      height: 190px !important;
+    }
   input[type="checkbox"],
   input[type="radio"] {
     border: 1px solid #ccc;
@@ -1108,6 +1116,10 @@
     height: auto !important;
     overflow: visible !important;
   }
+  .works-video{
+    width: 560px;
+    height: 315px;
+    }
 }
 
 
@@ -1149,5 +1161,9 @@ input[type=checkbox]:checked ~ #menu{
     }
     .my-role{
       margin-bottom: 20px;
+    }
+    .works-video{
+      width: 440px;
+      height: 280px;
     }
 }
