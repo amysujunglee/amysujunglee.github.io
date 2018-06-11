@@ -912,9 +912,12 @@
     line-height: 20px;
   }
   .works-video{
-      width: 295px !important;
-      height: 190px !important;
-    }
+    width: 295px !important;
+    height: 190px !important;
+  }
+  .works-quote{
+    padding: 0 20px;
+  }
   input[type="checkbox"],
   input[type="radio"] {
     border: 1px solid #ccc;
