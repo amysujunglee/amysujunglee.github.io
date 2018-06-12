@@ -86,3 +86,13 @@ video.col-sm-12{
 	margin: 20px 0;
 	padding: 0 90px;
 }
+.img-box{
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+.moments{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #999;
+	margin-top: 20px;
+}
