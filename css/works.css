@@ -14,6 +14,7 @@
   /*margin-right: 15px;*/
   text-transform: uppercase;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .works-container ul li:hover,
 .works-container .active{
@@ -27,6 +28,7 @@
 li.hover-none:hover{
   background: none !important;
   color: #999 !important;
+  cursor: text;
 }
 .works-container{
   position: relative;
