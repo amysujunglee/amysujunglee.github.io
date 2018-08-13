@@ -47,7 +47,7 @@ ul.my-role{
 	text-align: center;
 	color: #999;
 	font-size: 12px;
-	/*margin-top: 5px;*/
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 .work-process-title{
@@ -95,5 +95,20 @@ video.col-sm-12{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #999;
-	margin-top: 10px;
+	margin-top: 40px;
+}
+.project-solution{
+	color: #cd212a;
+}
+.project-process {
+	font-weight: 600;
+}
+.result-img {
+	text-align: center;
+}
+.result-img img{
+	max-height: 400px;
+}
+.moments-bottom{
+	margin-bottom: 20px;
 }
