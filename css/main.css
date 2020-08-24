@@ -153,19 +153,11 @@ h1 {
 /* About Page */
 .about-section {
   width: 80%;
-}
-
-.about-quote {
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-style: italic;
-  font-family: 'Merriweather', serif;
-  color: #999;
+  font-size: 1.25rem;
 }
 
 .about-subtitle {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #cd212a;
 }
 
