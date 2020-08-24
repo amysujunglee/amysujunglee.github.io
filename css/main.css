@@ -169,6 +169,10 @@ h1 {
   font-style: italic;
 }
 
+.company-info {
+  font-size: 1rem;
+}
+
 .about-job-title {
   text-decoration: underline;
 }
