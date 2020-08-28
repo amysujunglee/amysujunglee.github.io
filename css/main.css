@@ -177,6 +177,11 @@ h1 {
   text-decoration: underline;
 }
 
+a.school:hover {
+  color: #777777;
+  text-decoration: underline;
+}
+
 /* Portfolio Page */
 .filter-projects {
   margin: 0 auto;
