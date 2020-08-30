@@ -48,12 +48,14 @@ h1 {
   margin-bottom: 10px;
 }
 
-.fa-social {
+.fab,
+.far {
   font-size: 26px !important;
   color: #828282;
 }
 
-.fa-social:hover {
+.fab:hover,
+.far:hover {
   text-decoration: none;
   color: #cd212a;
   transition: 1s;
@@ -85,7 +87,7 @@ h1 {
 }
 
 /* Navigation */
-.nav {
+nav {
   width: 80%;
   margin: 0 auto;
 }
@@ -156,6 +158,10 @@ h1 {
 }
 
 /* About Page */
+.about-subheading {
+  width: 80%;
+  margin: 0 auto;
+}
 .about-subtitle {
   font-size: 1.5rem;
 }
