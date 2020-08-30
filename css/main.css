@@ -100,17 +100,6 @@ nav {
   padding-bottom: 3px;
 }
 
-.nav-item a::before {
-  content: "";
-  width: 0;
-  height: 0.1em;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  background: #cd212a;
-  transition: all 0.3s;
-}
-
 .nav-item a:hover::before {
   width: 100%;
   left: 0;
@@ -175,15 +164,6 @@ nav {
 }
 
 .about-job-title {
-  text-decoration: underline;
-}
-
-a.about-link {
-  color: #cd212a;
-}
-
-a.about-link:hover {
-  color: #900008;
   text-decoration: underline;
 }
 
@@ -261,4 +241,17 @@ a.about-link:hover {
 
 .wip-text {
   font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .nav-item a::before {
+    content: "";
+    width: 0;
+    height: 0.1em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: #cd212a;
+    transition: all 0.3s;
+  }
 }
