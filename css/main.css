@@ -156,22 +156,12 @@ h1 {
 }
 
 /* About Page */
-.about-section {
-  width: 80%;
-  font-size: 1.25rem;
-}
-
 .about-subtitle {
   font-size: 1.5rem;
-  color: #cd212a;
 }
 
 .about-divider {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
-}
-
-.company-location {
-  font-style: italic;
 }
 
 .company-info {
@@ -182,8 +172,12 @@ h1 {
   text-decoration: underline;
 }
 
-a.school:hover {
-  color: #777777;
+a.about-link {
+  color: #cd212a;
+}
+
+a.about-link:hover {
+  color: #900008;
   text-decoration: underline;
 }
 
