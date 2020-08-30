@@ -1,11 +1,9 @@
 * {
   font-family: "Open Sans", serif;
 }
-
 a {
   color: #303030;
 }
-
 a:hover {
   color: #303030;
   text-decoration: none;
@@ -15,75 +13,37 @@ a:hover {
 h1 {
   font-weight: 300;
 }
-
 .color-dark {
   color: #303030 !important;
 }
-
 .color-red {
   color: #cd212a !important;
 }
-
-.semibold {
-  font-weight: 500;
-}
-
-.bold {
-  font-weight: 700;
-}
-
 .font-m {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
-
 .font-sm {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 /* Main Page */
-.company-logo img {
-  max-width: 80px;
-  /* max-height: 30px; */
-  margin: 0 10px;
-  margin-bottom: 10px;
-}
-
 .fab,
 .far {
-  font-size: 26px !important;
+  font-size: 26px;
   color: #828282;
 }
-
 .fab:hover,
 .far:hover {
   text-decoration: none;
   color: #cd212a;
   transition: 1s;
 }
-
 .letter-space {
   letter-spacing: 1px;
 }
-
-.flex-row-reverse {
-  margin-left: 20px;
-}
-
-.job-title {
-  font-weight: 500;
-}
-
 .skill-sets {
   color: #999;
-  font-size: 12px;
-  font-weight: 300;
   letter-spacing: 2px;
-}
-
-.see-all-works {
-  font-size: 14px;
-  font-weight: 300;
-  margin-left: 20px;
 }
 
 /* Navigation */
