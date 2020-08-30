@@ -43,12 +43,10 @@ h1 {
 }
 .skill-sets {
   color: #999;
-  letter-spacing: 2px;
 }
 
 /* Navigation */
 nav {
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -204,6 +202,9 @@ nav {
 }
 
 @media (min-width: 992px) {
+  nav {
+    width: 80%;
+  }
   .nav-item a::before {
     content: "";
     width: 0;
@@ -213,5 +214,8 @@ nav {
     left: 50%;
     background: #cd212a;
     transition: all 0.3s;
+  }
+  .main-subheading {
+    font-size: 1.25rem;
   }
 }
