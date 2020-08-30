@@ -112,17 +112,11 @@ nav {
 .about-subtitle {
   font-size: 1.5rem;
 }
-
-.about-divider {
-  border-top: 1px dotted rgba(0, 0, 0, 0.1);
+.about-link {
+  color: #cd212a;
 }
-
-.company-info {
-  font-size: 1rem;
-}
-
-.about-job-title {
-  text-decoration: underline;
+.about-link:hover {
+  color: #8c0108;
 }
 
 /* Portfolio Page */
