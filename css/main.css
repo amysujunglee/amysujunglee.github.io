@@ -11,7 +11,10 @@ a:hover {
 
 /* Font*/
 h1 {
-  font-weight: 300;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 .color-dark {
   color: #303030 !important;
@@ -26,10 +29,10 @@ h1 {
   font-size: 0.75rem;
 }
 
-/* Main Page */
+/* Home */
 .fab,
 .far {
-  font-size: 26px;
+  font-size: 20px;
   color: #828282;
 }
 .fab:hover,
@@ -195,7 +198,15 @@ nav {
   font-size: 20px;
 }
 
+/* for table and desktop size */
 @media (min-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  /* Home */
   nav {
     width: 80%;
   }
@@ -211,5 +222,9 @@ nav {
   }
   .main-subheading {
     font-size: 1.25rem;
+  }
+  .fab,
+  .far {
+    font-size: 26px;
   }
 }
