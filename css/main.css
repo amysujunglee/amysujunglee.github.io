@@ -52,10 +52,15 @@ h2 {
 }
 
 /* Navigation */
+header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #ddd;
+  z-index: 1;
+}
 nav {
   margin: 0 auto;
 }
-
 .nav-item a {
   text-decoration: none;
   font-size: 1em;
@@ -63,13 +68,11 @@ nav {
   transition: all 0.6s;
   padding-bottom: 3px;
 }
-
 .nav-item a:hover::before {
   width: 100%;
   left: 0;
   background: #cd212a;
 }
-
 .nav-item a:hover,
 .active {
   color: #cd212a !important;
