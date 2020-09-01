@@ -47,6 +47,9 @@ h2 {
 .skill-sets {
   color: #999;
 }
+.badge {
+  font-weight: normal;
+}
 
 /* Navigation */
 nav {
