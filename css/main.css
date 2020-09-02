@@ -181,7 +181,7 @@ nav {
   margin-bottom: 3px;
 }
 
-.portfolio-result img {
+.final-image {
   width: 100%;
 }
 
@@ -242,5 +242,10 @@ nav {
   /* About */
   .about-subtitle {
     font-size: 1.5rem;
+  }
+
+  /* Portfolio Detail */
+  .final-image {
+    width: 50%;
   }
 }
