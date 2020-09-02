@@ -19,8 +19,14 @@ h2 {
 .color-dark {
   color: #303030 !important;
 }
+.color-grey {
+  color: #777 !important;
+}
 .color-red {
   color: #cd212a !important;
+}
+.font-lg {
+  font-size: 1.5rem;
 }
 .font-m {
   font-size: 0.875rem;
