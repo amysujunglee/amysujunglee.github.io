@@ -118,7 +118,7 @@ nav {
   margin: 0 auto;
 }
 .about-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .about-link {
   color: #cd212a;
@@ -231,5 +231,10 @@ nav {
   .fab,
   .far {
     font-size: 26px;
+  }
+
+  /* About */
+  .about-subtitle {
+    font-size: 1.5rem;
   }
 }
