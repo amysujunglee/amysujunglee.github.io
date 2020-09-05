@@ -119,6 +119,9 @@ header {
 }
 
 /* Portfolio Page */
+.work-main-banner {
+  width: 100%;
+}
 .filter-projects {
   margin: 0 auto;
   display: table;
