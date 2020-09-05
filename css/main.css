@@ -89,30 +89,15 @@ header {
 .portfolio-thumbs {
   transition: all 0.3s;
 }
-
 .portfolio-thumbs:hover .portfolio-thumb-title {
   text-decoration: underline;
 }
-
-.portfolio-thumb-title {
-  margin-top: 8px;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
 .portfolio-thumb-date {
-  font-size: 14px;
   color: #888;
 }
-
 .card-img-top {
   border-radius: 0;
 }
-
-.view-all-portfolio {
-  text-align: center;
-}
-
 .view-all-btn:hover {
   color: #cd212a;
   text-decoration: underline;
