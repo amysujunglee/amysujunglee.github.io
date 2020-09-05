@@ -67,9 +67,6 @@ header {
   border-bottom: 1px solid #ddd;
   z-index: 1;
 }
-nav {
-  margin: 0 auto;
-}
 .nav-item a {
   text-decoration: none;
   font-size: 1em;
@@ -221,9 +218,6 @@ nav {
     font-size: 2rem;
   }
   /* Home */
-  nav {
-    max-width: 960px;
-  }
   .nav-item a::before {
     content: "";
     width: 0;
