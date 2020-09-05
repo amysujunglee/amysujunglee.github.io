@@ -222,7 +222,7 @@ nav {
   }
   /* Home */
   nav {
-    width: 80%;
+    max-width: 960px;
   }
   .nav-item a::before {
     content: "";
