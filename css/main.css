@@ -34,6 +34,9 @@ h2 {
 .font-sm {
   font-size: 0.75rem;
 }
+.text-underline {
+  text-decoration: underline;
+}
 
 /* Home */
 .fab,
