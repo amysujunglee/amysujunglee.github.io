@@ -138,14 +138,7 @@ header {
   margin: 0 auto;
   display: table;
 }
-
-.filter-button-list {
-  padding: 10px 10px;
-  position: relative;
-  width: 100%;
-}
-
-.filter-button-list li {
+.filter-projects ul li {
   list-style: none;
   padding: 5px 20px;
   font-size: 14px;
@@ -153,19 +146,13 @@ header {
   margin-right: 15px;
   text-transform: uppercase;
 }
-
-.filter-button-list li:hover,
+.filter-projects li:hover,
 .filter-active {
   background-color: #666;
   color: white;
   transition: all 0.4s;
-  font-weight: 500;
   cursor: pointer;
   outline: none;
-}
-
-.work-main-banner {
-  width: 100%;
 }
 
 .desc-left {
