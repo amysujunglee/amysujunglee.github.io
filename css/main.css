@@ -142,11 +142,9 @@ header {
   cursor: pointer;
   outline: none;
 }
-
 .desc-left {
   font-size: 14px;
 }
-
 .desc-left-title {
   text-transform: uppercase;
   color: #999;
@@ -155,19 +153,19 @@ header {
   font-weight: bold;
   margin-bottom: 3px;
 }
-
 .final-image {
   width: 100%;
 }
-
 .portfolio-screenshot {
   width: 100%;
   margin-bottom: 20px;
 }
-
 .w-mobileweb img {
   max-height: 400px;
   width: auto;
+}
+.portfolio-result img {
+  width: 100%;
 }
 
 /* Blog */
