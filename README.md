@@ -1,4 +1,5 @@
 # amysujunglee.github.io
-My Portfolio Website - 2020 version
+- My Portfolio Website - 2020 version
 
-Languages used: JavaScript, jQuery, HTML, CSS, Bootstrap
+## Languages
+- JavaScript, jQuery, HTML, CSS, Bootstrap
